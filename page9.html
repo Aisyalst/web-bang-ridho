@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>30S Color</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    body {
+      display: block;
+      height: auto;
+      min-height: 100vh;
+      overflow-x: hidden;
+      background-color: #000;
+    }
+    .img-container {
+      width: 100%;
+    }
+    .img-container img {
+      width: 100%;
+    }
+    .desktop-img {
+      display: block;
+    }
+    .mobile-img {
+      display: none;
+    }
+    @media (max-width: 768px) {
+      .desktop-img {
+        display: none !important;
+      }
+      .mobile-img {
+        display: block !important;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="back-btn-container" style="position: fixed; z-index: 10;">
+    <a href="index.html" class="back-btn">← Back</a>
+  </div>
+  
+  <div class="img-container">
+    <img src="D_9.1.png" alt="30S Color Part 1" class="desktop-img">
+    <img src="M_9.1.png" alt="30S Color Part 1 Mobile" class="mobile-img">
+  </div>
+  <div class="img-container">
+    <img src="D_9.2.png" alt="30S Color Part 2" class="desktop-img">
+    <img src="M_9.2.png" alt="30S Color Part 2 Mobile" class="mobile-img">
+  </div>
+</body>
+</html>
