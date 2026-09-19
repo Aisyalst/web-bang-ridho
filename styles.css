@@ -6,11 +6,12 @@
 
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  height: 100vh;
-  width: 100vw;
+  min-height: 100vh;
+  width: 100%;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -48,7 +49,7 @@ body {
 
 .back-btn-container {
   position: absolute;
-  top: 30px;
+  bottom: 65px;
   left: 30px;
 }
 
