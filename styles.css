@@ -52,13 +52,8 @@ body {
 
 .back-btn-container {
   position: absolute;
-<<<<<<< HEAD
   bottom: 50px;
   left: 10px;
-=======
-  bottom: 65px;
-  left: 30px;
->>>>>>> 00b1597b1d99b3a75befbffdd13c783f0f083ce8
 }
 
 .back-btn {
