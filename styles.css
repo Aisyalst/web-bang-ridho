@@ -77,17 +77,17 @@ body {
 
 @media (max-width: 768px) {
   .button-grid {
-    left: 20%;
+    left: 50%;
     transform: translateX(-50%);
-    bottom: 10%;
-    grid-template-columns: 1fr;
+    bottom: 30%;
+    grid-template-columns: 1fr 1fr;
     gap: 10px;
-    width: 30%;
+    width: 65%;
   }
   
   .btn {
-    min-width: 50%;
-    padding: 5px 8px;
+    min-width: 70%;
+    padding: 5px 15px;
     border-radius: 5px;
     font-size: 0.5rem;
     opacity: 90%;
