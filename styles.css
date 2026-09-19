@@ -70,8 +70,9 @@ body {
 }
 
 .back-btn:hover {
-  background-color: white;
-  color: black;
+  background-color: black;
+  color: white;
+  opacity: 100%;
 }
 
 @media (max-width: 768px) {
